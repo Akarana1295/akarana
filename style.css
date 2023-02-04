@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'k8x12S';
+    src: url('files/k8x12SW.woff2') format('woff2');
+}
+
+.header{
+    display: flex;
+    flex-flow: column;
+}
+
+.pagelink{
+    color: #191919;
+    text-decoration: none;
+    font-family: k8x12S;
+}
+
+body{
+    background: #000000;
+    padding: 128px;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    flex-flow: column;
+}
+
+.content{
+    background-color: #191919;
+    color: #e6e6e6;
+    padding: 10px;
+    font-family: k8x12S;
+    font-size: 24px;
+    border: solid 2px #A04A73;
+    width: 100%;
+    margin: 0px 0px 8px 0px;
+}
+.content h{
+    font-size: 36px;
+}
+
+.button{
+    border: solid 2px #A04A73;
+    background-color: #e6e6e6;
+    padding: 8px 16px 8px 16px;
+    font-size: 24px;
+    margin: 0px 8px 8px 0px;
+}
+
+.download{
+    color: #A04A73;
+    text-decoration: none;
+    font-family: k8x12S;
+}
+/* 汚いコードとか言うなよ　こっちは良く分からない状態で作ったんだからな */
